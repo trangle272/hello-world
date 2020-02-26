@@ -1,0 +1,51 @@
+/* unvisited link */
+a:link {
+    color:pink;
+}
+/*visited link */
+a:visited {
+    color:purple;
+}
+/*mouse over link*/
+a:hover {
+    color:green;
+}
+/*selected link */
+a:active {
+    color:brown;
+}
+
+body {
+    background-color: aquamarine;
+    color:yellowgreen;
+}
+    
+h1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px black solid;
+    margin: 20px; 
+    background-color:pink;
+    padding: 24px;
+}
+.foo p {
+    /* position: fixed; */
+    background-color:red;
+    color: white;
+    padding-right: 8px;
+}
+/*footer*/
+footer p {
+    position: fixed;
+    left:12.5%;
+    bottom:0;
+    width:75%;
+    background-color:red;
+    color: white;
+    text-align:right;
+    padding-right: 8px;
+}
+    
